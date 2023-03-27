@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <h1>Airtime Generator</h1>
+        <select name="" id="Network">
+            <option value="">Choose your Network Provider</option>
+            <option value="MTN">MTN</option>
+            <option value="GLO">GLO</option>
+            <option value="Airtel">Airtel</option>
+            <option value="9Mobile">9Mobile</option>
+        </select><br><br>
+        <select name="" id="Amount">
+            <option value="" selected disabled>Choose Airtime Amount</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="500">500</option>
+            <option value="1000">1000</option>
+        </select><br><br>
+        <h1 class="generate" id="generate"></h1>
+        <button onclick="submit()">Generate Card</button><br><br>
+        <h1>Load Airtime</h1><br>
+            <input type="text" id="inp"><br><br>
+            <button onclick="load()">Load Card</button>
+        
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
